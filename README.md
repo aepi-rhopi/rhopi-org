@@ -17,8 +17,8 @@ click the pencil icon, edit, and commit to `main`. The site redeploys automatica
 **Local development:**
 
 ```bash
-git clone https://github.com/almog-co/rhopi.git
-cd rhopi
+git clone https://github.com/aepi-rhopi/rhopi-org.git
+cd rhopi-org
 npm install
 npm run dev      # local preview at http://localhost:5173
 ```
@@ -42,5 +42,5 @@ npm run build    # optional: verify the production build passes before pushing
 ## Domain
 
 `rhopi.org` is registered at Namecheap. DNS points the apex domain at GitHub Pages'
-A records and `www` at `almog-co.github.io`. The custom domain is configured in
+A records and `www` at `aepi-rhopi.github.io`. The custom domain is configured in
 repo Settings → Pages.
